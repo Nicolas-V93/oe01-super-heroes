@@ -1,0 +1,112 @@
+body
+{
+    margin: 10px 150px 50px 150px;
+    background-color: rgb(246, 246, 177);
+}
+
+h1
+{
+    color: rgb(235, 0, 0);
+}
+
+span
+{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+div
+{
+    padding: 5px 10px 15px 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 137, 3, 0.25);
+    border: 1px red solid;
+    border-radius: 50px 0;
+    overflow: auto;
+}
+
+/* Style Index.html*/
+
+.navigatie
+{
+    border: none;
+    border-radius: 0;
+    background-color: rgb(246, 246, 177);
+    border-bottom: 2px dotted red;
+}
+
+.navigatie ul
+{
+    font-size: 1.5rem;
+    list-style-image: url(../../bronbestanden/afbeeldingen/listIcon.png);
+}
+
+.navigatie a
+{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo
+{
+    text-align: center;
+}
+
+.floatr
+{
+    float: right;
+    
+}
+
+.footer
+{
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    background-color: rgb(246, 246, 177);
+    border-top: 2px dotted red;
+}
+
+/* Style artikel01.html*/
+
+#cover8man
+{
+    width: 200px;
+    padding: 10px 25px 10px 10px;
+}
+
+.floatl
+{
+    float: left;
+}
+
+/* div:nth-of-type(2) p:nth-of-type(3)
+{
+    clear: left;
+} */
+
+.stopfloat
+{
+    clear:both;
+}
+
+
+
+/* Style artikel02.html */
+
+#coverGreenLama
+{
+    height: 275px;
+    padding: 15px 25px 10px 25px;
+}
+
+
+/* Style artikel03.html */
+
+#coverStardust
+{
+    width: 40%;
+    padding: 20px;
+}
